@@ -1,0 +1,107 @@
+
+h3 
+{
+  color:#1a1a00;
+  text-align:left;
+  text-align:  center;
+  font-size: 40px;
+  font-family: 'Tangerine', cursive;
+  margin-bottom: 0;
+  margin-top: 0;
+  
+}
+.container
+{
+  display: flex;
+
+  flex-direction: column;
+}
+
+table 
+{
+  margin-left: 15%;
+}
+#CV
+{
+  position: relative;
+  max-width: 1000px;
+  height:2400px;
+  margin: auto;
+  background-image: url("back3.png");
+  
+  background-position:center;
+  background-repeat:no-repeat;
+background-size: 100% 100%
+}
+body
+{
+  font-family: 'Lato', sans-serif;
+  background-image: url("wood.jpg");
+  background-size:contain;
+  background-position:center;
+}
+#CVH
+{
+  text-align:center;
+  margin-left: 0px; 
+  color:#1a1a00;
+  font-family: 'Playball', cursive;
+  font-size: 3em;
+  margin-bottom: 0;
+}
+a:visited
+{
+  color: #1a1a00;
+}
+a:hover
+{
+  color:maroon;
+}
+#PI
+{
+  align-content: center;
+  padding-top: 27%; 
+  margin-bottom: 0;
+}
+
+hr
+{
+  width: 60%;
+}
+#dp
+{
+  width:25%;
+  height:auto; 
+  margin-left: 15%; 
+  float: left;
+}
+
+
+@media screen and (max-width: 700px)
+{
+  table 
+{
+  margin-left: 0%;
+  font-size:small;
+}
+
+#CV
+{
+  margin: auto;
+  background-image: url("back6.jpg");
+  border-radius: 25px;
+  height:auto; 
+}
+body
+{
+  font-size:x-small;
+}
+#dp
+{
+  margin-left: 3%; 
+}
+#PI
+{
+  padding-top:5%; 
+}
+}

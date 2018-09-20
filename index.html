@@ -1,45 +1,6 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
-  <style>
-      
-    h3 
-    {
-      color:brown;
-      text-align:left;
-      margin-left: 15%;
-      font: Apple Chancery, cursive;
-      font-size: 26px;
-    }
-    .container
-    {
-      align-content: center;   
-      text-align: center;
-    }
-    table 
-    {
-      margin-left: 15%;
-    }
-    #CV
-    {
-      position: relative;
-      width: 1000px;
-      height:2400px;
-      margin: auto;
-      background-image: url("back2.png");
-      background-repeat: no-repeat;
-      background-size: 1000px 2400px;
-    }
-    body
-    {
-      background-color: rgb(206,206,255);
-      background-image: url("wood.jpg");
-    }
-    hr
-    {
-      width: 60%;
-    }
-  </style>
-  
+
   <head>
   
     <meta charset="utf-8" />
@@ -47,47 +8,35 @@
     <title>Ahmad Bilal Aslam's CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Pacifico|Lato|Tangerine|Playball" rel="stylesheet">
     <script src="main.js"></script>
 
   </head>
   
   <body>
-    <h3 style="text-align:center; margin-left: 0px; font-size: 36px; color:goldenrod">Curriculum Vitae</h3>
-    <div id="CV">  
-    <div class="container" id="Personal Information" style="padding-top: 25%;">
-      <img src="dp.png" width ="150px" height="150px" alt="Display Picture">
-      <table>
-        <tr>
-          <th>Personal Information</th>
-          <th scope="col">Ahmad Bilal Aslam</th>        
-        </tr>
-        <tr>
-          <th scope="row"></th>
-          <td>66-A, Iqbal Avenue, Phase 3, Canal Road, 54000 Lahore (Pakistan)</td>      
-        </tr>
-        <tr>
-            <td></td>
-            <td>+923224234676</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>ahmadbilal07@live.com</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td><a href="https://ahmadsmemoir.wordpress.com/" target="_blank">Ahmad's Memoir</a></td>
-        </tr>
-      </table>
-    </div>
+    <h1 id="CVH">Curriculum Vitae</h1>
+    <div id="CV" class="container">  
+      <h3 id ="PI">Personal Information</h3>
+      <div  id="Personal Information" class="box" >
+        <div>
+          <img src="dp.png" id="dp"   alt="Display Picture">
+          <p style="padding-top:8%; "><b>Ahmad Bilal Aslam</b><br>
+          66-A, Iqbal Avenue, Phase 3, Canal Road, 54000 Lahore (Pakistan)<br>
+          +923224234676<br>
+          ahmadbilal07@live.com<br>
+          <a href="https://ahmadsmemoir.wordpress.com/" target="_blank">Ahmad's Memoir</a></p>
+        </div>
+      </div>
    
    
-    <div class="container" id="Education">
+    <div id="Education" class="box" >
     
       <hr>
-      <h3 style="align-content: center;">Education</h3>    
+      <h3 >Education</h3>    
       <table>
         <tr>
-          <th>08/2015–Present</th>
+          <th class="cell1">08/2015–Present</th>
           <th>Bachelors in Computer Science</th>
         </tr>
         <tr>
@@ -95,7 +44,7 @@
           <td>FAST-NUCES, Lahore (Pakistan)</td>
         </tr>
         <tr>
-          <th>09/2013–09/2015</th>
+          <th class="cell1">09/2013–09/2015</th>
           <th>Intermediate in Computer Science (HSSC)</th>
         </tr>
         <tr>
@@ -107,7 +56,7 @@
           <td>Grade: A+</td>
         </tr>
         <tr>
-          <th>01/2012–08/2013</th>
+          <th class="cell1">01/2012–08/2013</th>
           <th>Matriculation (Secondary School Certificate)</th>
         </tr>
         <tr>
@@ -121,13 +70,13 @@
       </table>
     </div>
 
-    <div class="container" id="Work Experience">
+    <div id="Work Experience" class="box" >
       
       <hr>
       <h3>Work Experience</h3>    
-      <table>
+      <table >
         <tr>
-          <th>01/06/2018–Present</th>
+          <th class="cell1">01/06/2018–Present</th>
           <th>Freelancer</th>
         </tr>
         <tr>
@@ -147,7 +96,7 @@
           <td>Graphic Designing</td>  
         </tr>
         <tr>
-          <th>01/07/2017–01/09/2017</th>
+          <th class="cell1">01/07/2017–01/09/2017</th>
           <th>Research Intern</th>
         </tr>
         <tr>
@@ -167,7 +116,7 @@
           <td>Developed a small game based on the concept of Augmented Reality</td>
         </tr>
         <tr>
-          <th>1/5/2017–31/7/2017</th>
+          <th class="cell1">1/5/2017–31/7/2017</th>
           <th>Corporate Intern</th>
         </tr>
         <tr>
@@ -185,7 +134,7 @@
       </table>
     </div>
     
-    <div class="container" id="Personal Skills">
+    <div id="Personal Skills" class="box" >
     
       <hr>
       <h3>Skills</h3>    
@@ -242,7 +191,7 @@
         </table>
       </div>
 
-      <div class="container" id ="ExtraCurricularActivities" style=" text-align:justify;">
+      <div  id ="ExtraCurricularActivities" style=" text-align:justify;" class="box" >
      
         <hr>
         <h3>Extra Curricular Activities</h3>
@@ -254,12 +203,12 @@
         </ul>
       </div>
 
-      <div class="container" id="Adittional Information">
+      <div  id="Adittional Information" class="box" >
         <hr>
         <h3>Adittional Information</h3>
         <table>
-          <tr><th scope="row"> Co-Founder of a startup (Funkadaa)</th>
-            <td><a href="http://funkadaa.com/" target="_blank">FunKadaa</a> aims to be an online portal for all kinds of artistic gestures; paintings, calligraphy, sculptures, handicrafts and home accessories among others.</td>
+          <tr><th scope="row"> Co-Founder of a <br>startup (Funkadaa)</th>
+            <td><a href="http://funkadaa.com/" target="_blank">FunKadaa</a> aims to be an online portal for all kinds of artistic<br> gestures: paintings, calligraphy, sculptures, handicrafts <br>and home accessories among others.</td>
           </tr>
           <tr>
             <td></td>
