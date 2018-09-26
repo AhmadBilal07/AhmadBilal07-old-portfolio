@@ -16,7 +16,12 @@ img
   height: 200px;
   
 }
-
+#time
+{
+  color: white;
+  text-align: center;
+  font-size:1.2em; 
+}
 #NameHeading
 {
   padding-top: 36vh;
@@ -453,4 +458,14 @@ label
   color: white;
   text-align: center;
  
+}
+
+
+
+.time{
+  background-color: #000000;
+  color: #ffffff;
+  width: 300px;
+  font-family: Arial;
+  margin: auto;
 }

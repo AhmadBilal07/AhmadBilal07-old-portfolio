@@ -58,11 +58,21 @@
   })
 
 
-$(function(){
-  $("#button").click(function(){
-    
- alert("hi");
-    return true;
-  })
-  })
 
+
+setInterval(function () {
+  updateClock( clockElement );
+}, 1000);
+(function () {
+
+  var clockElement = document.getElementById( "time" );
+
+  function updateClock ( clock ) {
+    clock.innerHTML = new Date().toLocaleTimeString();
+  }
+
+  setInterval(function () {
+      updateClock( clockElement );
+  }, 1000);
+
+}());
