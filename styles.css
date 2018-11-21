@@ -1,14 +1,25 @@
 
 #firstPage
 {
-  background-image:  url("back.jpg");
+/*  background-image:  url("back.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("back.jpg");    
+
+  */
   height: 100vh;
   filter: alpha(opacity=30);
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("back.jpg");    
-}    
+ } 
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
+}
+
 img
 {
        
@@ -241,7 +252,7 @@ hr
 .parallax 
 {
   /* The image used */
-  background-image: url("try.jpg");
+  background-image: url("try4.jpg");
 
   /* Set a specific height */
   min-height:  100vh; 
@@ -251,7 +262,7 @@ hr
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url("try.jpg");
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url("try4.jpg");
 }
 
 
