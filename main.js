@@ -21,25 +21,25 @@
 
 
   $(".SubCon1").on('mouseenter', () => {
-  $("#web1").attr("src","web2.webp");
+  $("#web1").attr("src","web2.png");
   $("#web1").animate({height: '+=100px',
   width: '+=100px',},300);
 
   }).on('mouseleave',()=>
   {
-  $("#web1").attr("src","web.webp");
+  $("#web1").attr("src","web.png");
   $("#web1").animate({height: '-=100px',
   width: '-=100px',},300);
 
   })
 
   $(".SubCon2").on('mouseenter', () => {
-  $("#ML1").attr("src","ML2.webp");
+  $("#ML1").attr("src","ML2.png");
   $("#ML1").animate({height: '+=100px',
   width: '+=100px',},300);
   }).on('mouseleave',()=>
   {
-  $("#ML1").attr("src","ML.webp");
+  $("#ML1").attr("src","ML.png");
   $("#ML1").animate({height: '-=100px',
   width: '-=100px',},300);
 
