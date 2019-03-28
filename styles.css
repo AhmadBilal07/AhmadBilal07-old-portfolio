@@ -1,13 +1,12 @@
 
 #firstPage
 {
-/*  background-image:  url("back.jpg");
+   background-image:  url("four.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("back.jpg");    
+  /*background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url("three.jpg");    */
 
-  */
   height: 100vh;
   filter: alpha(opacity=30);
  } 
@@ -35,7 +34,7 @@ img
 }
 #NameHeading
 {
-  padding-top: 36vh;
+  padding-top: 36vh;color:black!important;
 }
 
 .heading
@@ -99,7 +98,7 @@ color: white;
 
 #mainpage 
 {
-height: 100%!important;
+  height: 100%!important;
 }
 
 .fa 
